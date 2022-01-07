@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <title>Dank Jokes</title>
+</head>
+<body>
+    <div id="selector">
+        <div id="jokeSelector">
+            <!-- <input type="radio" name="type" id="jokeRadio" value="joke" checked> -->
+            <label for="joke" id="jokeRadio" class="displayType">Jokes</label>
+        </div>
+        
+        <div id="memeSelector">
+            <!-- <input type="radio" name="type" id="memeRadio" value="meme"> -->
+            <label for="meme" id="memeRadio" class="displayType">Memes</label>
+        </div>
+        
+    </div>
+    
+    <div id="display">
+        <img src="loading.gif" alt="loading..." id="memeImage" hidden>
+        <p id="joke">Loading...</p>
+    </div>
+    <div id="controlers">
+        <button id='more' class="controlButtons">More</button>
+        <button id='share' class="controlButtons">Share</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
